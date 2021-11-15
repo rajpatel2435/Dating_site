@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Oswald&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+
+body{
+    margin-top: 100px;
+    min-height: 100%;
+    background-image: url("../images/new.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.info h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    height: 100%;
+}
+
+.left-info{
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    float:left;
+
+}
+
+#welcome-me{
+    font-family: "Charm", cursive;
+    font-size: 20px;
+
+}
+
+#meet-me{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+
+.right-info{
+    min-height: 100vh;
+    float: right;
+    width: 70%;
+}
+
+.d-flex-btn .d-flex-input{
+    margin: auto;
+}
+
+.btn{
+    margin: 5px;
+}
+
+button{
+    margin: 5px;
+}
+
+
+
+.card-img-top {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.chat-messages{
+    margin-top: 65px;
+}
+
+
+.send-messages{
+    margin: auto;
+    top: 64px ;
+    position: fixed;
+    z-index: 999;
+    width: 64%;
+}

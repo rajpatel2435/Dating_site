@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../images/new.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 550px;
+    min-height: 400px;
+    background-color: #deb8cd;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+
+}
+
+
+
+.login-text {
+    color: red;
+    font-weight: bolder;
+    font-family: 'Charm', cursive;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+
+.col-sm-10 {
+    text-align: center;
+}
+
+.login-register-text {
+    color: #0d6efd;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.login-register-text a {
+    text-decoration: none;
+    color: red;
+}
+
+.login-register-text a:hover{
+    color: yellow;
+}
+
