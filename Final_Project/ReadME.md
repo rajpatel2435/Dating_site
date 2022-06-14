@@ -2,10 +2,8 @@
 
 -------------------------------------------------------------------
 
-# Group Members 
 
-1) Dev Parmar 
-2) Raj Patel
+ Raj Patel
 
 -------------------------------------------------------------------
 
@@ -29,9 +27,9 @@
 
 -----------------------------------------------------------------------
 
-# Who did what?
 
------ Dev Parmar 
+
+What I worked in this  project?
 
 - Made the Profile page for editing the profile and adding photo and to the database and saving the photo in a specific folder with specific name
 - A Favorite List to add users into it. Also a famous page where you can see who has added you into their favorite list
@@ -39,10 +37,6 @@
 - Made a chat to talk with specific person. Also able to see if the other person has seen the message or not.
 - Search the user using username. Sort the list using location, age or popularity.
 - Restrictions to guest and regular users and only premium users able to user premium things.
-
-
------ Raj Patel
-
 - Made the Database for users where the users will add his details which later will be used to find users and add details to it.
 - The register page to get the details of the user and save it into the database.
 - Validate the input which user has input so that it doesnt have same username or any empty string to crash the code.
